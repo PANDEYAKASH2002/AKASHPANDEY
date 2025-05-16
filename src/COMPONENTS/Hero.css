@@ -1,0 +1,58 @@
+
+.stroke-text {
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+}
+html,body{
+    background-color: #000;
+}
+
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2rem;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+   
+    margin-bottom: 2rem;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    animation: fallFromSky 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(-500px);
+    height:20vh;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fallFromSky {
+    0% {
+      opacity: 0;
+      transform: translateY(-500px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
