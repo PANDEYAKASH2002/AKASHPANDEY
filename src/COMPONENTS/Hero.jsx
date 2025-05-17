@@ -104,7 +104,7 @@ const socialLinks = [
     name: 'Facebook',
   },
   {
-    icon: <FaXTwitter size={40} color="#000000" />,
+    icon: <FaXTwitter size={40} color="#ffff" />,
     url: 'https://twitter.com/your_username/',
     name: 'Twitter',
   },
