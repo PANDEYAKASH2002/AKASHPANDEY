@@ -64,6 +64,11 @@ function Hero() {
     description: "A simple yet functional Calculator web app built with HTML, CSS, and JavaScript. It performs basic arithmetic operations with clean UI, efficient event handling, and dynamic display updates. This project showcases my foundational skills in frontend development and interactive web design.",
     link: "https://github.com/PANDEYAKASH2002/CALCULATOR",
   },
+   {
+    title: "Weather-App",
+    description: "The Weather App is a responsive and user-friendly web application that allows users to get real-time weather information for any city around the world by simply entering the city name. It fetches current weather data using a public weather API (like OpenWeatherMap) and presents it with a clean and intuitive UI.",
+    link: "https://github.com/PANDEYAKASH2002/WEATHER",
+  }
 ];
 //SKILL SECTION
 const Skilled = [
@@ -307,8 +312,8 @@ const socialLinks = [
           I love building interactive, responsive web applications and always eager to learn more and grow in the tech industry.
         </p>
 
-        <h2 className="text-3xl font-semibold mb-4 text-black-800 flex justify-center">Projects I've Built</h2>
-        <div className="grid gap-6 md:grid-cols-2 border-black hover:border-amber-300">
+        <h2 className="text-3xl font-semibold mb-2 text-black-800 flex justify-center">Projects I've Built</h2>
+        <div className="grid gap-4 md:grid-cols-3 border-black hover:border-amber-300">
           {projects.map((project, index) => (
             <div key={index} className="project-div  bg-gray-400 p-6 rounded-2xl shadow-md hover:shadow-lg  transition duration-300">
               <h3 className="text-2xl font-bold mb-2 ">{project.title}</h3>
@@ -329,9 +334,9 @@ const socialLinks = [
       </section>
 
       {/* CONTACT SECTION */}
-       <section id="contact" className="py-20 px-6 md:px-20 bg-black" data-aos="fade-up">
+       <section id="contact" className="py-2 px-6 md:px-20 bg-black" data-aos="fade-up">
        <div className="contact-container " >
-        
+          <div className="grid gap-4 md:grid-cols-2 border-black hover:border-amber-300   justify-center items-center">
            <div className=" ">
 
              <h1 className="contact-title flex justify-center text-amber-400">Connect with Me</h1>
@@ -352,6 +357,10 @@ const socialLinks = [
                   </a>
                     ))}
                   </div> 
+              </div>
+              <div className='h-30vh w-60vw'>
+                <img src="/akash3.png" alt="contact-image" />
+              </div>
               </div>
     </div>
     </section>

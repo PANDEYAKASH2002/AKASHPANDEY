@@ -13,7 +13,7 @@ function Footer() {
                 <img src="/logo.png" className="h-8 rounded-xl" alt=" Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Portfolio</span>
             </a>
-            <ul className="flex flex-wrap items-center  text-sm font-medium text-gray-500  dark:text-gray-400">
+            <ul className="flex flex-wrap items-center  text-sm font-medium text-gray-500 gap-6  dark:text-gray-400">
                 <li>
                     <button onClick={() => handleScroll("about")} className="hover:underline text-yellow-500 text-xl px-1">About</button>
                 </li>
@@ -26,7 +26,7 @@ function Footer() {
               
              
             </ul>
-            <ul className='text-white'>
+            <ul className='text-gray-500'>
                 <li>pandeyaakash7491@gmail.com</li>
                 <li>+918957447491</li>
             </ul>
