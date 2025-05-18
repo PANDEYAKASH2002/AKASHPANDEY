@@ -169,10 +169,10 @@ const socialLinks = [
         </svg>
     </div>
     
-     <div className='navbar  w-full bg-transparent'>
+     <div className='navbar  w-full bg-black '>
           
 
- <nav className="fixed top-0 w-full bg-transparent text-white z-50">
+ <nav className="fixed top-0 w-full bg-black text-white z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3">
           <img src="/logo2.jpg" className="h-8" alt="Logo" />
