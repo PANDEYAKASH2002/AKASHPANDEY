@@ -168,6 +168,7 @@ const socialLinks = [
                         />
         </svg>
     </div>
+    
      <div className='navbar  w-full bg-transparent'>
           
 
@@ -266,7 +267,7 @@ const socialLinks = [
           DE<span className="text-transparent stroke-text">VELOP</span>ER
         </h1>
          <div className='text-[1vw] flex justify-center mt-4'>
-           <a href="/AkashPandey_frontenddeveloper_resume.pdf" download="AkashPandey_frontenddeveloper_resume.pdf">
+           <a href="/AkashPandey_frontenddeveloper_resume.pdf" download="/AkashPandey_frontenddeveloper_resume.pdf">
           <button className="px-8 py-3 border-2 border-yellow-500 text-yellow-500 rounded-full hover:bg-yellow-500 hover:text-gray-900 transition-all duration-300" >
             Download CV
           </button>
